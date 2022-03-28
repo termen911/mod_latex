@@ -1,0 +1,522 @@
+{
+  "keyboard": "new-symbols-keyboard",
+  "layer": "new-symbols-layer",
+  "label": "new symbols",
+  "tooltip": "new symbols",
+  "data": {
+    "styles": "",
+    "rows": [
+      [
+        {
+          "class": "keycap tex",
+          "label": "7",
+          "key": "7"
+        },
+        {
+          "class": "keycap tex",
+          "label": "8",
+          "key": "8"
+        },
+        {
+          "class": "keycap tex",
+          "label": "9",
+          "key": "9"
+        },
+        {
+          "class": "keycap tex",
+          "label": "{",
+          "insert": "\\lbrace",
+          "variants": [
+            "\\left( #0\\right)",
+            "\\left[ #0\\right]",
+            "\\left\\{ #0\\right\\}",
+            "\\left\\langle #0\\right\\rangle",
+            "\\lfloor",
+            "\\llcorner",
+            "(",
+            "\\lbrack",
+            "\\lvert",
+            "\\lVert",
+            "\\lgroup",
+            "\\langle",
+            "\\lceil",
+            "\\ulcorner",
+            "\\lmoustache",
+            "\\lbrace"
+          ]
+        },
+        {
+          "class": "keycap tex",
+          "label": "}",
+          "insert": "\\rbrace",
+          "variants": [
+            "\\rfloor",
+            "\\lrcorner",
+            ")",
+            "\\rbrack",
+            "\\rvert",
+            "\\rVert",
+            "\\rgroup",
+            "\\rangle",
+            "\\rceil",
+            "\\urcorner",
+            "\\rmoustache",
+            "\\rbrace"
+          ]
+        },
+        {
+          "class": "separator w5"
+        },
+        {
+          "class": "keycap tex",
+          "label": "&#x2208;",
+          "insert": "\\in",
+          "variants": [
+            "\\owns"
+          ]
+        },
+        {
+          "class": "keycap tex",
+          "label": "&#x2209;",
+          "insert": "\\notin",
+          "variants": [
+            "\\backepsilon"
+          ]
+        },
+        {
+          "class": "keycap tex",
+          "label": "&#x211c;<aside>Real</aside>",
+          "insert": "\\Re"
+        },
+        {
+          "class": "keycap tex",
+          "label": "&#x2111;<aside>Imaginary</aside>",
+          "insert": "\\Im"
+        },
+        {
+          "class": "keycap w15",
+          "label": "<span><sup>&#x250c;</sup><span><span style='color:#ddd'>o</span><sup>&#x2510;</sup></span><aside>ceil</aside>",
+          "insert": "\\ulcorner#0\\urcorner"
+        },
+        {
+          "class": "keycap tex",
+          "label": "&#x2207;<aside>nabla</aside>",
+          "insert": "\\nabla",
+          "variants": [
+            "\\nabla\\times",
+            "\\nabla\\cdot",
+            "\\nabla^{2}"
+          ]
+        },
+        {
+          "class": "keycap tex",
+          "label": "&#x221e;",
+          "insert": "\\infty",
+          "variants": [
+            "\\aleph_0",
+            "\\aleph_1",
+            "\\omega",
+            "\\mathfrak{m}"
+          ]
+        }
+      ],
+      [
+        {
+          "class": "keycap tex",
+          "label": "4",
+          "key": "4"
+        },
+        {
+          "class": "keycap tex",
+          "label": "5",
+          "key": "5"
+        },
+        {
+          "class": "keycap tex",
+          "label": "6",
+          "key": "6"
+        },
+        {
+          "class": "keycap tex",
+          "label": "[",
+          "insert": "\\lbrack",
+          "variants": [
+            "\\left( #0\\right)",
+            "\\left[ #0\\right]",
+            "\\left\\{ #0\\right\\}",
+            "\\left\\langle #0\\right\\rangle",
+            "\\lfloor",
+            "\\llcorner",
+            "(",
+            "\\lbrack",
+            "\\lvert",
+            "\\lVert",
+            "\\lgroup",
+            "\\langle",
+            "\\lceil",
+            "\\ulcorner",
+            "\\lmoustache",
+            "\\lbrace"
+          ]
+        },
+        {
+          "class": "keycap tex",
+          "label": "]",
+          "insert": "\\rbrack",
+          "variants": [
+            "\\rfloor",
+            "\\lrcorner",
+            ")",
+            "\\rbrack",
+            "\\rvert",
+            "\\rVert",
+            "\\rgroup",
+            "\\rangle",
+            "\\rceil",
+            "\\urcorner",
+            "\\rmoustache",
+            "\\rbrace"
+          ]
+        },
+        {
+          "class": "separator w5"
+        },
+        {
+          "class": "keycap tex",
+          "label": "&#x2282;",
+          "insert": "\\subset",
+          "variants": [
+            "\\subseteq",
+            "\\nsubset",
+            "\\nsubseteq"
+          ]
+        },
+        {
+          "class": "keycap tex",
+          "label": "&#x2283;",
+          "insert": "\\supset",
+          "variants": [
+            "\\supseteq",
+            "\\nsupset",
+            "\\nsupseteq"
+          ]
+        },
+        {
+          "class": "keycap tex",
+          "label": "!<aside>factorial</aside>",
+          "key": "!",
+          "variants": [
+            "!!",
+            "\\Gamma",
+            "\\Pi"
+          ]
+        },
+        {
+          "class": "keycap",
+          "label": "<span><sup><span><span style='color:#ddd'>o</span>&#x2032</sup></span><aside>prime</aside>",
+          "insert": "^{\\prime}"
+        },
+        {
+          "class": "keycap w15",
+          "label": "<span><sub>&#x2514;</sub><span style='color:#ddd'>o</span><sub>&#x2518;</sub></span><aside>floor</aside>",
+          "insert": "\\llcorner#0\\lrcorner"
+        },
+        {
+          "class": "keycap tex",
+          "label": "&#x2202;<aside>partial<br>derivative</aside>",
+          "insert": "partial",
+          "variants": []
+        },
+        {
+          "class": "keycap tex",
+          "label": "&#x2205;<aside>empty set</aside>",
+          "insert": "\\emptyset",
+          "variants": []
+        }
+      ],
+      [
+        {
+          "class": "keycap tex",
+          "label": "1",
+          "key": "1"
+        },
+        {
+          "class": "keycap tex",
+          "label": "2",
+          "key": "2"
+        },
+        {
+          "class": "keycap tex",
+          "label": "3",
+          "key": "3"
+        },
+        {
+          "class": "keycap tex",
+          "label": "&#x27e8;",
+          "insert": "\\langle",
+          "variants": [
+            "\\left( #0\\right)",
+            "\\left[ #0\\right]",
+            "\\left\\{ #0\\right\\}",
+            "\\left\\langle #0\\right\\rangle",
+            "\\lfloor",
+            "\\llcorner",
+            "(",
+            "\\lbrack",
+            "\\lvert",
+            "\\lVert",
+            "\\lgroup",
+            "\\langle",
+            "\\lceil",
+            "\\ulcorner",
+            "\\lmoustache",
+            "\\lbrace"
+          ]
+        },
+        {
+          "class": "keycap tex",
+          "label": "&#x27e9;",
+          "insert": "\\rangle",
+          "variants": [
+            "\\rfloor",
+            "\\lrcorner",
+            ")",
+            "\\rbrack",
+            "\\rvert",
+            "\\rVert",
+            "\\rgroup",
+            "\\rangle",
+            "\\rceil",
+            "\\urcorner",
+            "\\rmoustache",
+            "\\rbrace"
+          ]
+        },
+        {
+          "class": "separator w5"
+        },
+        {
+          "class": "keycap tex",
+          "latex": "\\overline{#?}",
+          "aside": "overline",
+          "variants": [
+            "\\overbrace{#@}",
+            "\\overlinesegment{#@}",
+            "\\overleftrightarrow{#@}",
+            "\\overrightarrow{#@}",
+            "\\overleftarrow{#@}",
+            "\\overgroup{#@}"
+          ]
+        },
+        {
+          "class": "keycap tex",
+          "latex": "\\underline{#?}",
+          "aside": "underline",
+          "variants": [
+            "\\underbrace{#@}",
+            "\\underlinesegment{#@}",
+            "\\underleftrightarrow{#@}",
+            "\\underrightarrow{#@}",
+            "\\underleftarrow{#@}",
+            "\\undergroup{#@}"
+          ]
+        },
+        {
+          "class": "keycap tex",
+          "latex": "\\vec{#?}",
+          "insert": "\\vec{#@}",
+          "aside": "vector",
+          "variants": [
+            "\\bar{#@}",
+            "\\vec{#@}",
+            "\\hat{#@}",
+            "\\check{#@}",
+            "\\dot{#@}",
+            "\\ddot{#@}",
+            "\\mathring{#@}",
+            "\\breve{#@}",
+            "\\acute{#@}",
+            "\\tilde{#@}",
+            "\\grave{#@}'"
+          ]
+        },
+        {
+          "class": "keycap tex small",
+          "latex": "\\xleftarrow{}",
+          "variants": [
+            "\\xlongequal{}",
+            "\\xleftrightarrow{}",
+            "\\xLeftrightarrow{}",
+            "\\xleftrightharpoons{}",
+            "\\xLeftarrow{}",
+            "\\xleftharpoonup{}",
+            "\\xleftharpoondown{}",
+            "\\xtwoheadleftarrow{}",
+            "\\xhookleftarrow{}",
+            "\\xtofrom{}",
+            "\\xleftequilibrium{}",
+            "\\xrightleftarrows{}"
+          ]
+        },
+        {
+          "class": "keycap tex small",
+          "latex": "\\xrightarrow{}",
+          "variants": [
+            "\\xlongequal{}",
+            "\\xleftrightarrow{}",
+            "\\xLeftrightarrow{}",
+            "\\xleftrightharpoons{}",
+            "\\xRightarrow{}",
+            "\\xrightharpoonup{}",
+            "\\xrightharpoondown{}",
+            "\\xtwoheadrightarrow{}",
+            "\\xrightleftharpoons{}",
+            "\\xhookrightarrow{}",
+            "\\xmapsto{}",
+            "\\xrightequilibrium{}",
+            "\\xrightleftarrows{}"
+          ]
+        },
+        {
+          "class": "keycap tex",
+          "latex": "\\left| #? \\right|",
+          "insert": "\\left| #0 \\right|",
+          "aside": "abs"
+        },
+        {
+          "class": "action font-glyph w15",
+          "label": "&#x232b;",
+          "command": [
+            "performWithFeedback",
+            "deleteBackward"
+          ]
+        }
+      ],
+      [
+        {
+          "class": "keycap tex",
+          "label": "0",
+          "variants": [
+            "\\emptyset",
+            "\\varnothing",
+            "\\infty",
+            {"latex": "#?_0", "insert": "#@_0"},
+            "\\circ",
+            "\\bigcirc",
+            "\\bullet"
+          ]
+        },
+        {
+          "class": "keycap tex",
+          "label": ".",
+          "variants": [
+            ",",
+            ";",
+            "\\colon",
+            {"latex": ":", "aside": "ratio"},
+            {"latex": "\\cdotp", "aside": "center dot", "class": "box"},
+            {"latex": "\\cdots", "aside": "center ellipsis", "class": "box"},
+            {"latex": "\\ldotp", "aside": "low dot", "class": "box"},
+            {"latex": "\\ldots", "aside": "low ellipsis", "class": "box"},
+            {"latex": "\\vdots", "aside": "", "class": "box"},
+            {"latex": "\\ddots", "aside": "", "class": "box"},
+            "\\odot",
+            "\\oslash",
+            "\\circledcirc"
+          ]
+        },
+        {
+          "class": "keycap tex",
+          "label": "=",
+          "variants": [
+            "\\cong",
+            "\\asymp",
+            "\\equiv",
+            "\\differencedelta",
+            "\\varpropto",
+            "\\thickapprox",
+            "\\approxeq",
+            "\\thicksim",
+            "\\backsim",
+            "\\eqsim",
+            "\\simeq",
+            "\\Bumpeq",
+            "\\bumpeq",
+            "\\doteq",
+            "\\Doteq",
+            "\\fallingdotseq",
+            "\\risingdotseq",
+            "\\coloneq",
+            "\\eqcirc",
+            "\\circeq",
+            "\\triangleq",
+            "\\between"
+          ]
+        },
+        {
+          "class": "keycap tex",
+          "label": "+",
+          "variants": [
+            "\\pm",
+            "\\mp",
+            "\\sum",
+            {"latex": "\\sum_{n\\mathop=0}^{\\infty}", "class": "small"},
+            "\\dotplus",
+            "\\oplus"
+          ]
+        },
+        {
+          "class": "keycap tex",
+          "label": ",",
+          "insert": ","
+        },
+        {
+          "class": "keycap tex",
+          "label": "&#x22c5;<aside>centered dot</aside>",
+          "insert": "\\cdot"
+        },
+        {
+          "class": "keycap tex",
+          "label": ":<aside>colon</aside>",
+          "insert": "\\colon"
+        },
+        {
+          "class": "keycap tex",
+          "label": "&#x2218;<aside>circle</aside>",
+          "insert": "\\circ"
+        },
+        {
+          "class": "keycap tex",
+          "label": "&#x2248;<aside>approx.</aside>",
+          "insert": "\\approx"
+        },
+        {
+          "class": "keycap tex",
+          "label": "&#x2260;",
+          "insert": "\\ne"
+        },
+        {
+          "class": "keycap tex",
+          "label": "&#x00b1;",
+          "insert": "\\pm"
+        },
+        {
+          "class": "action font-glyph",
+          "label": "<svg><use xlink:href='#svg-arrow-left' /></svg>",
+          "command": [
+            "performWithFeedback",
+            "moveToPreviousChar"
+          ]
+        },
+        {
+          "class": "action font-glyph",
+          "label": "<svg><use xlink:href='#svg-arrow-right' /></svg>",
+          "command": [
+            "performWithFeedback",
+            "moveToNextChar"
+          ]
+        }
+      ]
+    ]
+  }
+}

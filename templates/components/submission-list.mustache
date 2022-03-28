@@ -1,0 +1,54 @@
+{{#is_teacher}}
+    <h2>Оценки</h2>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Пользователь</th>
+            <th scope="col">Ответ</th>
+            <th scope="col">Ход решения</th>
+            <th scope="col">Файлы</th>
+            <th scope="col">Оценка</th>
+            <th scope="col">Дата сдачи</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#submissions_list}}
+            <tr>
+                <td>
+                    <a href="{{{user_profile}}}" target="_blank">{{user_name}}</a>
+                </td>
+                <td>
+                    <div class="position-relative">
+                        <div class="position-absolute w-100 h-100" style="z-index: 10; top: 0;"></div>
+                        <div class="latex_formula_render"
+                             data-latex-formula='{{answer}}'
+                             data-latex-readonly="true"
+                        ></div>
+                    </div>
+                </td>
+                <td>
+                    <div class="position-relative">
+                        <div class="position-absolute w-100 h-100" style="z-index: 10; top: 0;"></div>
+                        <div class="latex_formula_render"
+                             data-latex-formula='{{answer_step}}'
+                             data-latex-readonly="true"
+                        ></div>
+                    </div>
+                </td>
+                <td>
+                    {{#files}}
+                        <a href="{{{url}}}" target="_blank">{{name}}</a>
+                    {{/files}}
+                </td>
+                <td>
+                    {{grade}} из {{grade_max}}
+                </td>
+                <td>
+                    {{date}}
+                </td>
+            </tr>
+        {{/submissions_list}}
+        </tbody>
+    </table>
+    <a href="{{{link_edit_grade}}}">Редактировать оценки</a>
+{{/is_teacher}}

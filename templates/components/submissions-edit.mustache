@@ -1,0 +1,24 @@
+<h2>Доступные активности</h2>
+{{^is_edit}}
+    {{#is_attempt}}
+        {{^attempt_time_end}}
+            <div>
+                <a href="{{{link_edit}}}" class="btn btn-primary">{{link_text}}</a>
+            </div>
+        {{/attempt_time_end}}
+        {{#attempt_time_end}}
+            <span>Завершилось время сдачи задания</span>
+        {{/attempt_time_end}}
+    {{/is_attempt}}
+    {{^is_attempt}}
+        {{#attempt_time_end}}
+            <span>Завершилось время сдачи задания</span>
+        {{/attempt_time_end}}
+        {{^attempt_time_end}}
+            <span>Все попытки использованы</span>
+        {{/attempt_time_end}}
+    {{/is_attempt}}
+{{/is_edit}}
+{{#is_edit}}
+    <h2>Ответ на задание</h2>
+{{/is_edit}}

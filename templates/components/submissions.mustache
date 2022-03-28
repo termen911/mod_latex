@@ -1,0 +1,35 @@
+{{#submissions}}
+    <h2>Последний ответ</h2>
+    <div>
+        <h4>Модуль</h4>
+        <p>{{submissions.latex}}</p>
+    </div>
+    <div>
+        <h4>Пользователь</h4>
+        <p>{{submissions.userid}}</p>
+    </div>
+    <div class="position-relative">
+        <h4>Ответ</h4>
+        <div class="position-absolute w-100 h-100" style="z-index: 10; top: 0;"></div>
+        <div class="latex_formula_render"
+           data-latex-formula='{{submissions.answer}}'
+           data-latex-readonly="true"
+        ></div>
+    </div>
+    <div>
+        <h4>Прикрепленные файлы</h4>
+        {{#submissions.files}}
+            <a href="{{url}}" target="_blank">{{name}}</a><br>
+        {{/submissions.files}}
+    </div>
+    <div class="position-relative">
+        <h4>Ход решения</h4>
+        <div id="answer-action-container" data-answer-action="{{submissions.answeraction}}">
+            <div class="position-absolute w-100 h-100" style="z-index: 10; top: 0;"></div>
+        </div>
+    </div>
+    <div>
+        <h4>Всего попыток</h4>
+        <p>{{submissions.attemptnumber}}</p>
+    </div>
+{{/submissions}}

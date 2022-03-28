@@ -1,0 +1,33 @@
+<h2>Информация о задание</h2>
+<div>
+    <h4>Название</h4>
+    <p>{{name}}</p>
+</div>
+
+<div>
+    <h4>Описание</h4>
+    <p>{{{intro}}}</p>
+</div>
+
+<div>
+    <h4>Дата окончания</h4>
+    <p>{{date_end_convert}}</p>
+</div>
+
+<div>
+    <h4>Осталось попыток</h4>
+    <p>{{attempt_info}}</p>
+</div>
+
+<div>
+    <h4>Прикрепленные файлы</h4>
+    {{#files}}
+        <a href="{{url}}" target="_blank">{{name}}</a><br>
+    {{/files}}
+</div>
+
+<div class="position-relative">
+    <h4>Задание</h4>
+    <div class="position-absolute w-100 h-100" style="z-index: 10; top: 0;"></div>
+    <p id="id_latex_task" class="d-none"></p>
+</div>

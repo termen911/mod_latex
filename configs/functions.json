@@ -1,0 +1,197 @@
+{
+  "keyboard": "new-functions-keyboard",
+  "layer": "new-functions-layer",
+  "label": "new functions",
+  "tooltip": "new functions",
+  "data": {
+    "styles": "",
+    "rows": [
+      [
+        {
+          "class": "separator"
+        },
+        {
+          "class": "fnbutton",
+          "insert": "\\sin",
+          "localLabel": "sadsdaasddas"
+        },
+        {
+          "class": "fnbutton",
+          "insert": "\\sin^{-1}"
+        },
+        {
+          "class": "fnbutton",
+          "insert": "\\ln"
+        },
+        {
+          "class": "fnbutton",
+          "insert": "\\exponentialE^{#?}"
+        },
+        {
+          "class": "bigfnbutton",
+          "latex": "\\operatorname{lcm}()",
+          "insert": "\\operatorname{lcm}(#?)"
+        },
+        {
+          "class": "bigfnbutton",
+          "latex": "\\operatorname{ceil}()",
+          "insert": "\\operatorname{ceil}(#?)"
+        },
+        {
+          "class": "bigfnbutton",
+          "insert": "\\lim_{n\\to\\infty}"
+        },
+        {
+          "class": "bigfnbutton",
+          "insert": "\\int"
+        },
+        {
+          "class": "bigfnbutton",
+          "latex": "\\operatorname{abs}()",
+          "insert": "\\operatorname{abs}(#?)"
+        }
+      ],
+      [
+        {
+          "class": "separator"
+        },
+        {
+          "class": "fnbutton",
+          "latex": "\\cos"
+        },
+        {
+          "class": "fnbutton",
+          "latex": "\\cos^{-1}"
+        },
+        {
+          "class": "fnbutton",
+          "latex": "\\ln_{10}"
+        },
+        {
+          "class": "fnbutton",
+          "latex": "10^{#?}"
+        },
+        {
+          "class": "bigfnbutton",
+          "latex": "\\operatorname{gcd}()",
+          "insert": "\\operatorname{gcd}(#?)"
+        },
+        {
+          "class": "bigfnbutton",
+          "latex": "\\operatorname{floor}()",
+          "insert": "\\operatorname{floor}(#?)"
+        },
+        {
+          "class": "bigfnbutton",
+          "latex": "\\sum_{n\\mathop=0}^{\\infty}"
+        },
+        {
+          "class": "bigfnbutton",
+          "latex": "\\int_{0}^{\\infty}"
+        },
+        {
+          "class": "bigfnbutton",
+          "latex": "\\operatorname{sign}()",
+          "insert": "\\operatorname{sign}(#?)"
+        }
+      ],
+      [
+        {
+          "class": "separator"
+        },
+        {
+          "class": "fnbutton",
+          "latex": "\\tan"
+        },
+        {
+          "class": "fnbutton",
+          "latex": "\\tan^{-1}"
+        },
+        {
+          "class": "fnbutton",
+          "latex": "\\log_{#?}"
+        },
+        {
+          "class": "fnbutton",
+          "latex": "\\sqrt[#?]{#0}"
+        },
+        {
+          "class": "bigfnbutton",
+          "latex": "\\mod",
+          "insert": "#0 \\mod"
+        },
+        {
+          "class": "bigfnbutton",
+          "latex": "\\operatorname{round}()",
+          "insert": "\\operatorname{round}(#?)"
+        },
+        {
+          "class": "bigfnbutton",
+          "latex": "{\\scriptstyle \\prod_{n=0}^{\\infty}}",
+          "insert": "\\prod_{n\\mathop=0}^{\\infty}"
+        },
+        {
+          "class": "bigfnbutton",
+          "insert": "\\frac{\\differentialD #0}{\\differentialD x}"
+        },
+        {
+          "class": "action font-glyph",
+          "label": "&#x232b;",
+          "command": [
+            "performWithFeedback",
+            "deleteBackward"
+          ]
+        }
+      ],
+      [
+        {
+          "class": "separator"
+        },
+        {
+          "class": "fnbutton",
+          "latex": "("
+        },
+        {
+          "class": "fnbutton",
+          "latex": ")"
+        },
+        {
+          "class": "fnbutton",
+          "latex": "x^{#?}",
+          "insert": "^{#?}"
+        },
+        {
+          "class": "fnbutton",
+          "latex": "_{#?}",
+          "insert": "x_{#?}"
+        },
+        {
+          "class": "keycap w20",
+          "label": "&nbsp;"
+        },
+        {
+          "class": "action font-glyph",
+          "label": "<svg><use xlink:href='#svg-arrow-left' /></svg>",
+          "command": [
+            "performWithFeedback",
+            "moveToPreviousChar"
+          ]
+        },
+        {
+          "class": "action font-glyph",
+          "label": "<svg><use xlink:href='#svg-arrow-right' /></svg>",
+          "command": [
+            "performWithFeedback",
+            "moveToNextChar"
+          ]
+        },
+        {
+          "class": "separator w5"
+        },
+        {
+          "class": "separator w5"
+        }
+      ]
+    ]
+  }
+}

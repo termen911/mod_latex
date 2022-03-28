@@ -1,0 +1,12 @@
+{{#grade.is_show}}
+    <h2>Информация об оценке</h2>
+    {{#grade.is_grade}}
+        <p>Ваша оценка {{grade.grade}} из {{grade.grade_max}} возможных {{#grade.is_change}}(Выставлена преподавателем вручную){{/grade.is_change}}</p>
+        {{#grade.feedback}}
+            <p>Комментарий от преподавателя - {{{.}}}</p>
+        {{/grade.feedback}}
+    {{/grade.is_grade}}
+    {{^grade.is_grade}}
+        <p>Оценка будет выставлена в {{grade.grade_set_time_convert}}</p>
+    {{/grade.is_grade}}
+{{/grade.is_show}}

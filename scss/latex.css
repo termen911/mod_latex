@@ -1,0 +1,20 @@
+/* stylelint-disable */
+.latex-container {
+    width: 100%;
+    font-size: 30px;
+    background-color: transparent;
+}
+
+.hidden-input input {
+    display: none!important;
+}
+
+.hidden-input math-field {
+    width: 100%;
+    border: 1px solid #cbcbcb;
+}
+
+math-field:not(:defined) {
+    display: none;
+}
+
